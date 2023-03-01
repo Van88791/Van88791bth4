@@ -1,10 +1,10 @@
 void main() {
   Map<String, String> Ban = {
-    'Tuan': 'AnDuong,HaiPhong 21 VN',
-    'Thuan': 'Ohio 21 US',
-    'Phuc': 'Tokyo 21 JP'
+    'Ten': 'Tuan,Long,Van',
+    'DiaChi': 'Mi, Trung Quoc , Viet Nam',
+    'KhoaQG': 'US , CN , VN'
   };
   print(Ban);
-  Ban['Van'] = 'LeChan,HaiPhong 21 VN';
+  Ban['DiaChi'] = 'Mi , Trung Quoc ,Lao';
   print(Ban);
 }
